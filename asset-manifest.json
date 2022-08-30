@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/whatsapp-widget-front/static/css/main.e6c13ad2.css",
-    "main.js": "/whatsapp-widget-front/static/js/main.07d3183d.js",
-    "index.html": "/whatsapp-widget-front/index.html",
-    "main.e6c13ad2.css.map": "/whatsapp-widget-front/static/css/main.e6c13ad2.css.map",
-    "main.07d3183d.js.map": "/whatsapp-widget-front/static/js/main.07d3183d.js.map"
+    "main.css": "/portfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/portfolio/static/js/main.07d3183d.js",
+    "index.html": "/portfolio/index.html",
+    "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
+    "main.07d3183d.js.map": "/portfolio/static/js/main.07d3183d.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
