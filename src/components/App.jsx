@@ -1,16 +1,27 @@
+import { Suspense } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import About from './About';
+// import Contact from './Contact';
+// import Experience from './Experience';
+// import Work from './Work';
+import Navigation from './Navigation';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <Navigation />
+      {/* <About title="About" dark={true} id="about" />
+      <Experience title="Experience" dark={true} id="experience" />
+      <Work title="Work" dark={true} id="work" />
+      <Contact title="Contact" dark={true} id="contact" /> */}
+
+      <Suspense fallback={<h1>Loading...</h1>}>
+        <Routes>
+          <Route path="/" exact element={<About dark={true} />} />
+
+          <Route path="*" element={<About />} />
+        </Routes>
+      </Suspense>
+    </>
   );
 };
