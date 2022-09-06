@@ -1,4 +1,5 @@
 import { Link, animateScroll as scroll } from 'react-scroll';
+import upArrow from '../icons/up-arrow.png';
 
 const styles = {
   header: {
@@ -9,7 +10,7 @@ const styles = {
     alignItems: 'center',
     borderBottom: '1px solid #2A363B',
     padding: 20,
-    backgroundColor: '#525e65',
+    backgroundColor: 'black',
     color: '#DBE8D4',
   },
 };
@@ -25,7 +26,7 @@ export default function Navigation() {
   return (
     <header style={styles.header}>
       <button className="mr-4" onClick={scrollToTop}>
-        Up
+        <img src={upArrow} className="w-6" alt="up arrow icon" />
       </button>
       <nav>
         <Link
