@@ -2,7 +2,7 @@ import rightArrow from '../icons/right-arroy.png';
 
 export default function Experience({ id }) {
   return (
-    <div className="lg:h-screen pl-[30px]" id={id}>
+    <div className="pl-[30px]" id={id}>
       <h2 className="font-bold text-[28px] mb-[25px]">Experience</h2>
       <p className="font-bold text-[22px] mb-[25px] text-green-500">
         Where I’ve Worked
