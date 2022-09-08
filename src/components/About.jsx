@@ -4,20 +4,25 @@ import Work from './Work';
 import iconArray from './IconArray';
 import utmLogo from '../icons/utm-logo.svg';
 import goitIcon from '../icons/goitIcon.png';
+import {
+  gitHubIcon,
+  linkedInIcon,
+  telegramIcon,
+  geoIcon,
+} from 'icons/svgIcon/svgIcons';
 
 export default function About() {
   return (
-    <section id="about" className="pl-5">
+    <section id="about" className="">
       <div className="lg:flex lg:h-screen items-center">
         <div className="lg:w-[700px] pl-[30px] pr-[30px]">
           <h3 className="font-bold text-[22px] mb-[25px] text-green-500">
             My name is
           </h3>
           <p className="font-bold text-[38px] mb-[25px] text-blue-400">
-            Yuri Radulov{' '}
+            Iuri Radulov{' '}
           </p>
-          <h3 className="font-bold text-[28px] mb-[25px]">About me</h3>
-          <p className="text-[22px]">
+          <p className="text-[22px] mb-5">
             I am a Junior Front-End developer with specialization in JavaScript
             and React. I have been interested in programming since a long time
             and wanted to make something important and useful. That’s why I
@@ -26,6 +31,27 @@ export default function About() {
             practice and work for the result are important for me. Also I am
             focused on the company development and on the team communication.
           </p>
+          <div>
+            <div className="flex">
+              {geoIcon}
+              <p className="mb-3 ml-3">Moldova, Chisinau</p>
+            </div>
+            <div className="flex">
+              <ul className="flex ml-[50px]">
+                <li className="w-8 mr-5">
+                  <a href="https://github.com/Iura-Radulov">{gitHubIcon}</a>
+                </li>
+                <li className="w-8 mr-5">
+                  <a href="https://linkedin.com/in/iuri-radulov">
+                    {linkedInIcon}
+                  </a>
+                </li>
+                <li className="w-8 mr-5">
+                  <a href="https://t.me/Iuri_Radu">{telegramIcon}</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div className="">
           <p className="font-bold text-[28px] mb-[25px] text-center">
