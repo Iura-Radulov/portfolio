@@ -30,6 +30,28 @@ export default function Experience({ id }) {
           </li>
         </ul>
       </div>
+
+      <div>
+        <p className="font-bold text-[22px] mb-[25px]">
+          <span className="text-blue-400">Moonglow</span> /
+          <span>Website administrator</span>
+        </p>
+        <p className="font-bold text-[18px] mb-[25px] text-zinc-400">
+          September 2022 - Present
+        </p>
+        <p className="font-bold text-[22px] mb-[25px] ">My duties</p>
+        <ul className="text-[22px] mb-[15px]">
+          <li>
+            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
+            Controlling of company website working with good and comfortable
+            interface for customers.
+          </li>
+          <li>
+            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
+            Adding and changing products on website.
+          </li>
+        </ul>
+      </div>
       <div>
         <p className="font-bold text-[22px] mb-[25px]">
           <span className="text-blue-400">Moldavian GRES</span> /

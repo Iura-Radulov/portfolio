@@ -57,6 +57,23 @@ const portfolio = [
     link: 'https://iura-radulov.github.io/goit-react-hw-08-phonebook/ ',
     image: delmiraImg,
   },
+  {
+    title: 'Vianorway tours',
+    description: 'Website for ordering excursions in Norway',
+    technologies: ['React', 'Redux', 'Bootstrap', 'Emailjs'],
+    gitLink: 'https://github.com/Iura-Radulov/bergen-gid.git',
+    link: 'https://iura-radulov.github.io/bergen-gid/',
+    image: delmiraImg,
+  },
+  {
+    title: 'Avant company',
+    description:
+      'Avant company website in Moldova with mini tractors specialization',
+    technologies: ['Wordpress'],
+    gitLink: '#',
+    link: 'https://avanttecno.md/',
+    image: delmiraImg,
+  },
 ];
 
 export default portfolio;

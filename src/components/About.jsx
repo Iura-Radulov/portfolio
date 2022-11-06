@@ -39,15 +39,19 @@ export default function About() {
             <div className="flex">
               <ul className="flex ml-[50px]">
                 <li className="w-8 mr-5">
-                  <a href="https://github.com/Iura-Radulov">{gitHubIcon}</a>
+                  <a href="https://github.com/Iura-Radulov" target="blank">
+                    {gitHubIcon}
+                  </a>
                 </li>
                 <li className="w-8 mr-5">
-                  <a href="https://linkedin.com/in/iuri-radulov">
+                  <a href="https://linkedin.com/in/iuri-radulov" target="blank">
                     {linkedInIcon}
                   </a>
                 </li>
                 <li className="w-8 mr-5">
-                  <a href="https://t.me/Iuri_Radu">{telegramIcon}</a>
+                  <a href="https://t.me/Iuri_Radu" target="blank">
+                    {telegramIcon}
+                  </a>
                 </li>
               </ul>
             </div>
