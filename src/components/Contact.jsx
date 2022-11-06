@@ -4,13 +4,14 @@ import {
   telegramIcon,
   geoIcon,
   phoneIcon,
+  mailIcon,
 } from 'icons/svgIcon/svgIcons';
 
 export default function Contact({ id }) {
   return (
     <div
       id={id}
-      className="flex items-center justify-around h-[100px] bg-indigo-400 text-stone-700"
+      className="flex items-center justify-around h-[130px] bg-indigo-400 text-stone-700"
     >
       <div>
         <div className="flex">
@@ -21,6 +22,12 @@ export default function Contact({ id }) {
           {phoneIcon}
           <a className="ml-3" href="tel:+37360267934">
             (+373)60267934
+          </a>
+        </div>
+        <div className="flex mt-3">
+          {mailIcon}
+          <a href="mailto:radulov@list.ru" target="blank" className="ml-3">
+            radulov@list.ru
           </a>
         </div>
       </div>

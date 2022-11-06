@@ -9,6 +9,7 @@ import {
   linkedInIcon,
   telegramIcon,
   geoIcon,
+  mailIcon,
 } from 'icons/svgIcon/svgIcons';
 
 export default function About() {
@@ -36,7 +37,13 @@ export default function About() {
               {geoIcon}
               <p className="mb-3 ml-3">Moldova, Chisinau</p>
             </div>
-            <div className="flex">
+            <div className="flex mb-5">
+              {mailIcon}
+              <a href="mailto:radulov@list.ru" target="blank" className="ml-3">
+                radulov@list.ru
+              </a>
+            </div>
+            <div className="flex mb-5">
               <ul className="flex ml-[50px]">
                 <li className="w-8 mr-5">
                   <a href="https://github.com/Iura-Radulov" target="blank">
