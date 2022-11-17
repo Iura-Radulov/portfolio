@@ -12,7 +12,7 @@ export default function Experience({ id }) {
           <span> Front-End Developer</span>
         </p>
         <p className="font-bold text-[18px] mb-[25px] text-zinc-400">
-          April 2022 - Present
+          November 2021 - Present
         </p>
         <p className="font-bold text-[22px] mb-[25px] ">My duties</p>
         <ul className="text-[22px] mb-[15px]">
@@ -37,7 +37,7 @@ export default function Experience({ id }) {
           <span>Website administrator</span>
         </p>
         <p className="font-bold text-[18px] mb-[25px] text-zinc-400">
-          September 2022 - Present
+          September 2022 - November 2022
         </p>
         <p className="font-bold text-[22px] mb-[25px] ">My duties</p>
         <ul className="text-[22px] mb-[15px]">
