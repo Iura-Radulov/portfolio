@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fbda8d0b.css",
-    "main.js": "/portfolio/static/js/main.b7ad4b99.js",
+    "main.js": "/portfolio/static/js/main.4a6aaa88.js",
     "static/media/Filmoteka-1.png": "/portfolio/static/media/Filmoteka-1.785bda9d529c811cd3c1.png",
     "static/media/Web-studio-1.png": "/portfolio/static/media/Web-studio-1.6f6247f0f6638e5d4bba.png",
     "static/media/Delmira-beauty-1.png": "/portfolio/static/media/Delmira-beauty-1.22c8b0c8d786a948dce4.png",
@@ -19,10 +19,10 @@
     "static/media/typescript.svg": "/portfolio/static/media/typescript.22b4f22ec3ee32c08fb2c0a25682bb5b.svg",
     "index.html": "/portfolio/index.html",
     "main.fbda8d0b.css.map": "/portfolio/static/css/main.fbda8d0b.css.map",
-    "main.b7ad4b99.js.map": "/portfolio/static/js/main.b7ad4b99.js.map"
+    "main.4a6aaa88.js.map": "/portfolio/static/js/main.4a6aaa88.js.map"
   },
   "entrypoints": [
     "static/css/main.fbda8d0b.css",
-    "static/js/main.b7ad4b99.js"
+    "static/js/main.4a6aaa88.js"
   ]
 }
