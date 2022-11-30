@@ -66,6 +66,14 @@ const portfolio = [
     image: delmiraImg,
   },
   {
+    title: 'Petly',
+    description: 'Website which helps find pets and take care about them',
+    technologies: ['React', 'Redux', 'Node.js', 'Formik'],
+    gitLink: 'https://github.com/Finkons/pets-project-front ',
+    link: 'https://pets-project.vercel.app/',
+    image: delmiraImg,
+  },
+  {
     title: 'Avant company',
     description:
       'Avant company website in Moldova with mini tractors specialization',

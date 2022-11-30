@@ -11,6 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #525e65;
   color: white;
+  /* color: #4895dd; */
 }
 
 a:hover {

@@ -56,7 +56,7 @@ export default function Work({ id }) {
               </div>
               <p className="text-[28px] mb-3 mt-2 flex-none">{item.title}</p>
               <p className="text-[20px] flex-1">{item.description}</p>
-              <ul className="flex  ">
+              <ul className="flex text-[#F59256]">
                 {item.technologies.map(tech => (
                   <li className="mr-3">{tech}</li>
                 ))}
