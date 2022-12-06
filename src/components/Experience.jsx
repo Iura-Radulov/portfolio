@@ -54,25 +54,25 @@ export default function Experience({ id }) {
       </div>
       <div>
         <p className="font-bold text-[22px] mb-[25px]">
-          <span className="text-blue-400">Moldavian GRES</span> /
-          <span>Electrical engineer</span>
+          <span className="text-blue-400">Evo Publishing</span> /
+          <span>Marketing assistant</span>
         </p>
         <p className="font-bold text-[18px] mb-[25px] text-zinc-400">
-          March 2013 - October 2020
+          January 2021 - July 2021
         </p>
         <p className="font-bold text-[22px] mb-[25px] ">My duties</p>
         <ul className="text-[22px] mb-[15px]">
           <li>
             <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Control of the working of transformer substations.
+            Analysis of competitors and market
           </li>
           <li>
             <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Decreasing of losses in electrical networks of 110, 330 kV.
+            Definition of target audience
           </li>
           <li>
             <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Ensuring reliable operation of power plant equipments.
+            Conversion accounting.
           </li>
         </ul>
       </div>

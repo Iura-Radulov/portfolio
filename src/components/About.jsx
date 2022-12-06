@@ -4,6 +4,7 @@ import Work from './Work';
 import iconArray from './IconArray';
 import utmLogo from '../icons/utm-logo.svg';
 import goitIcon from '../icons/goitIcon.png';
+import evoLogo from '../images/evo-publishing.png';
 import {
   gitHubIcon,
   linkedInIcon,
@@ -98,6 +99,17 @@ export default function About() {
           <p className="text-[22px] pl-[65px]">Full stack developer</p>
           <p className="font-bold text-[18px] mb-[25px] pl-[65px] text-zinc-400">
             September 2021 - September 2022
+          </p>
+          <p className="font-bold text-[24px] mb-[20px] text-center">
+            Marketing corse
+          </p>
+          <img src={evoLogo} className="w-[60px] inline" alt="" />
+          <span className="text-[22px] ml-2 text-orange-500">
+            Evo publishing
+          </span>
+          <p className="text-[22px] pl-[65px]">Internet marketing</p>
+          <p className="font-bold text-[18px] mb-[25px] pl-[65px] text-zinc-400">
+            July 2020 - October 2020
           </p>
         </div>
       </div>
