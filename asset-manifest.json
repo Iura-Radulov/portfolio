@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a9264b24.css",
-    "main.js": "/portfolio/static/js/main.d54bb463.js",
+    "main.js": "/portfolio/static/js/main.b04062b8.js",
     "static/media/Filmoteka-1.png": "/portfolio/static/media/Filmoteka-1.785bda9d529c811cd3c1.png",
     "static/media/Web-studio-1.png": "/portfolio/static/media/Web-studio-1.6f6247f0f6638e5d4bba.png",
     "static/media/Delmira-beauty-1.png": "/portfolio/static/media/Delmira-beauty-1.22c8b0c8d786a948dce4.png",
@@ -9,6 +9,7 @@
     "static/media/web-pack.png": "/portfolio/static/media/web-pack.3b5639b7074f78e38e94.png",
     "static/media/word-press3.png": "/portfolio/static/media/word-press3.29c1cf88df28e05e71ae.png",
     "static/media/js.png": "/portfolio/static/media/js.18e195e1fa06e3cea9c7.png",
+    "static/media/evo-publishing.png": "/portfolio/static/media/evo-publishing.edfb2c184d19d4d5dca2.png",
     "static/media/node-js.png": "/portfolio/static/media/node-js.3f82842dd810bd4dc064.png",
     "static/media/react.png": "/portfolio/static/media/react.88d5c8b167e185fd4c7a.png",
     "static/media/git2.png": "/portfolio/static/media/git2.a5527b5c02e754fc4a6d.png",
@@ -19,10 +20,10 @@
     "static/media/typescript.svg": "/portfolio/static/media/typescript.22b4f22ec3ee32c08fb2c0a25682bb5b.svg",
     "index.html": "/portfolio/index.html",
     "main.a9264b24.css.map": "/portfolio/static/css/main.a9264b24.css.map",
-    "main.d54bb463.js.map": "/portfolio/static/js/main.d54bb463.js.map"
+    "main.b04062b8.js.map": "/portfolio/static/js/main.b04062b8.js.map"
   },
   "entrypoints": [
     "static/css/main.a9264b24.css",
-    "static/js/main.d54bb463.js"
+    "static/js/main.b04062b8.js"
   ]
 }
