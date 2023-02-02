@@ -25,13 +25,13 @@ export default function About() {
             Iuri Radulov{' '}
           </p>
           <p className="text-[22px] mb-5">
-            I am a Junior Front-End developer with specialization in JavaScript
-            and React. I have been interested in programming since a long time
-            and wanted to make something important and useful. That’s why I
-            decided to learn one of the most famous programing language –
-            JavaScript and its frameworks: React, Vue, Angular. A lot of
-            practice and work for the result are important for me. Also I am
-            focused on the company development and on the team communication.
+            I am a Front-End developer with specialization in JavaScript and
+            React. I have been interested in programming since a long time and
+            wanted to make something important and useful. That’s why I decided
+            to learn one of the most famous programing language – JavaScript and
+            its frameworks: React, Vue, Angular. A lot of practice and work for
+            the result are important for me. Also I am focused on the company
+            development and on the team communication.
           </p>
           <div>
             <div className="flex">
@@ -40,8 +40,12 @@ export default function About() {
             </div>
             <div className="flex mb-5">
               {mailIcon}
-              <a href="mailto:radulov@list.ru" target="blank" className="ml-3">
-                radulov@list.ru
+              <a
+                href="mailto:iura.radulov@gmail.com"
+                target="blank"
+                className="ml-3"
+              >
+                iura.radulov@gmail.com
               </a>
             </div>
             <div className="flex mb-5">

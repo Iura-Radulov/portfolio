@@ -26,8 +26,8 @@ export default function Contact({ id }) {
         </div>
         <div className="flex mt-3">
           {mailIcon}
-          <a href="mailto:radulov@list.ru" target="blank" className="ml-3">
-            radulov@list.ru
+          <a href="mailto:iura.radulov@gmail.com" target="blank" className="ml-3">
+            iura.radulov@gmail.com
           </a>
         </div>
       </div>

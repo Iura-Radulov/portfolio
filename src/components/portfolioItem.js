@@ -82,6 +82,15 @@ const portfolio = [
     link: 'https://avanttecno.md/',
     image: delmiraImg,
   },
+  {
+    title: 'Amid-auto',
+    description:
+      'Amid-auto company shop website in Moldova with selling auto accessories',
+    technologies: ['Laravel', 'Vue'],
+    gitLink: '#',
+    link: 'https://amid-auto.md/',
+    image: delmiraImg,
+  },
 ];
 
 export default portfolio;
