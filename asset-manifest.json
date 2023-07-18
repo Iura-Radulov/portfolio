@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.994d38de.css",
-    "main.js": "/portfolio/static/js/main.07f1ac9d.js",
+    "main.css": "/portfolio/static/css/main.26e345c2.css",
+    "main.js": "/portfolio/static/js/main.9dcc402b.js",
     "static/media/Filmoteka-1.png": "/portfolio/static/media/Filmoteka-1.785bda9d529c811cd3c1.png",
     "static/media/Web-studio-1.png": "/portfolio/static/media/Web-studio-1.6f6247f0f6638e5d4bba.png",
     "static/media/Delmira-beauty-1.png": "/portfolio/static/media/Delmira-beauty-1.22c8b0c8d786a948dce4.png",
@@ -19,11 +19,11 @@
     "static/media/utm-logo.svg": "/portfolio/static/media/utm-logo.8ae790d9ffe12c3836321876ead00645.svg",
     "static/media/typescript.svg": "/portfolio/static/media/typescript.22b4f22ec3ee32c08fb2c0a25682bb5b.svg",
     "index.html": "/portfolio/index.html",
-    "main.994d38de.css.map": "/portfolio/static/css/main.994d38de.css.map",
-    "main.07f1ac9d.js.map": "/portfolio/static/js/main.07f1ac9d.js.map"
+    "main.26e345c2.css.map": "/portfolio/static/css/main.26e345c2.css.map",
+    "main.9dcc402b.js.map": "/portfolio/static/js/main.9dcc402b.js.map"
   },
   "entrypoints": [
-    "static/css/main.994d38de.css",
-    "static/js/main.07f1ac9d.js"
+    "static/css/main.26e345c2.css",
+    "static/js/main.9dcc402b.js"
   ]
 }
