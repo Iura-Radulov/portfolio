@@ -1,8 +1,8 @@
 export const gitHubIcon = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="20"
-    height="20"
+    width="22"
+    height="22"
     fill="currentColor"
     className="bi bi-github"
     viewBox="0 0 16 16"
@@ -68,8 +68,8 @@ export const phoneIcon = (
 export const linkedInIcon = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="20"
-    height="20"
+    width="22"
+    height="22"
     fill="currentColor"
     className="bi bi-linkedin"
     viewBox="0 0 16 16"
@@ -81,8 +81,8 @@ export const linkedInIcon = (
 export const telegramIcon = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="20"
-    height="20"
+    width="22"
+    height="22"
     fill="currentColor"
     className="bi bi-telegram"
     viewBox="0 0 16 16"

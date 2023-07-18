@@ -25,42 +25,43 @@ export default function About() {
             Iuri Radulov{' '}
           </p>
           <p className="text-[22px] mb-5">
-            I am a Front-End developer with specialization in JavaScript and
-            React. I have been interested in programming since a long time and
-            wanted to make something important and useful. That’s why I decided
-            to learn one of the most famous programing language – JavaScript and
-            its frameworks: React, Vue, Angular. A lot of practice and work for
-            the result are important for me. Also I am focused on the company
+            I am a Full stack developer with specialization in JavaScript and
+            PHP. I worked with JS frameworks: React, Vue and PHP framework
+            Laravel. I worked as front-end as back-end developer. In back-end I
+            used Nodejs for JS and only PHP, Laravel or Backpack for PHP. I have
+            been interested in programming since a long time and wanted to make
+            something important and useful. A lot of practice and work for the
+            result are important for me. Also I am focused on the company
             development and on the team communication.
           </p>
           <div>
             <div className="flex">
               {geoIcon}
-              <p className="mb-3 ml-3">Moldova, Chisinau</p>
+              <p className="mb-3 ml-3 text-lg">Moldova, Chisinau</p>
             </div>
-            <div className="flex mb-5">
+            <div className="flex mb-5 items-center">
               {mailIcon}
               <a
                 href="mailto:iura.radulov@gmail.com"
                 target="blank"
-                className="ml-3"
+                className="ml-3 text-lg"
               >
                 iura.radulov@gmail.com
               </a>
             </div>
             <div className="flex mb-5">
               <ul className="flex ml-[50px]">
-                <li className="w-8 mr-5">
+                <li className="w-10 mr-5">
                   <a href="https://github.com/Iura-Radulov" target="blank">
                     {gitHubIcon}
                   </a>
                 </li>
-                <li className="w-8 mr-5">
+                <li className="w-10 mr-5">
                   <a href="https://linkedin.com/in/iuri-radulov" target="blank">
                     {linkedInIcon}
                   </a>
                 </li>
-                <li className="w-8 mr-5">
+                <li className="w-10 mr-5">
                   <a href="https://t.me/Iuri_Radu" target="blank">
                     {telegramIcon}
                   </a>

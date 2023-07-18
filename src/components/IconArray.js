@@ -10,20 +10,22 @@ import restIcon from '../icons/rest-api.png';
 import wpIcon from '../icons/web-pack.png';
 import wordPressIcon from '../icons/word-press3.png';
 import nodeIcon from '../icons/node-js.png';
+import laravelIcon from '../icons/laravel.png';
 
 const iconArray = [
   htmlIcon,
   csslIcon,
   jsIcon,
+  phpIcon,
+  tsIcon,
   sassIcon,
 
-  tsIcon,
-  phpIcon,
   reactIcon,
-  wordPressIcon,
   nodeIcon,
+  wordPressIcon,
+
   gitIcon,
-  restIcon,
+  laravelIcon,
   wpIcon,
 ];
 
