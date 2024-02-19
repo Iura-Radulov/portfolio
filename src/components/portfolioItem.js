@@ -26,19 +26,12 @@ const portfolio = [
     title: 'Filmoteka',
     description:
       'Website for searching of movies with authentication and two languages.',
-    technologies: ['HTML', 'SCSS', 'JS', 'REST', 'Firebase'],
+    technologies: ['HTML', 'JS', 'REST', 'Firebase'],
     gitLink: 'https://github.com/Iura-Radulov/teamproject-filmoteka.git',
     link: 'https://iura-radulov.github.io/teamproject-filmoteka/',
     image: filmotekaImg,
   },
-  {
-    title: 'Delmira beauty',
-    description: 'Adaptive one page website of cosmetic store Delmira beauty',
-    technologies: ['HTML', 'SCSS', 'JS'],
-    gitLink: 'https://github.com/Iura-Radulov/delmira-beuty.git',
-    link: 'https://iura-radulov.github.io/delmira-beuty/',
-    image: delmiraImg,
-  },
+
   {
     title: 'Searching for movies',
     description:
@@ -60,7 +53,7 @@ const portfolio = [
   {
     title: 'Vianorway tours',
     description: 'Website for ordering excursions in Norway',
-    technologies: ['React', 'Redux', 'Bootstrap', 'Emailjs'],
+    technologies: ['React', 'Redux', 'Bootstrap'],
     gitLink: 'https://github.com/Iura-Radulov/bergen-gid.git',
     link: 'https://iura-radulov.github.io/bergen-gid/',
     image: delmiraImg,
@@ -71,6 +64,15 @@ const portfolio = [
     technologies: ['React', 'Redux', 'Node.js', 'Formik'],
     gitLink: 'https://github.com/Finkons/pets-project-front ',
     link: 'https://pets-project.vercel.app/',
+    image: delmiraImg,
+  },
+  {
+    title: 'Artisan',
+    description:
+      'Web service that helps to find performers and customers to provide services ',
+    technologies: ['NextJs', 'Tailwind', 'Flowbite React'],
+    gitLink: '/',
+    link: 'https://artisan-pl.onrender.com',
     image: delmiraImg,
   },
   {

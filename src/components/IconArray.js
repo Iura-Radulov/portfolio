@@ -6,10 +6,10 @@ import tsIcon from '../icons/typescript.svg';
 import phpIcon from '../icons/php.png';
 import reactIcon from '../icons/react.png';
 import gitIcon from '../icons/git2.png';
-import wpIcon from '../icons/web-pack.png';
 import wordPressIcon from '../icons/word-press3.png';
 import nodeIcon from '../icons/node-js.png';
 import laravelIcon from '../icons/laravel.png';
+import nextIcon from '../icons/next-js.svg';
 
 const iconArray = [
   htmlIcon,
@@ -23,7 +23,7 @@ const iconArray = [
   wordPressIcon,
   gitIcon,
   laravelIcon,
-  wpIcon,
+  nextIcon,
 ];
 
 export default iconArray;

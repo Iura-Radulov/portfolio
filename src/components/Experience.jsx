@@ -2,7 +2,7 @@ import rightArrow from '../icons/right-arroy.png';
 
 export default function Experience({ id }) {
   return (
-    <div className="lg:h-screen pl-[50px]" id={id}>
+    <div className="md:h-full pl-[50px] mb-[30px]" id={id}>
       <p className="font-bold text-[28px] mb-[25px] text-green-500">
         Where I’ve Worked
       </p>
@@ -10,10 +10,10 @@ export default function Experience({ id }) {
       <div>
         <p className="font-bold text-[22px] mb-[25px]">
           <span className="text-blue-400">Customagic</span> /
-          <span>Full-Stack Developer</span>
+          <span> Full-Stack Developer</span>
         </p>
         <p className="font-bold text-[18px] mb-[25px] text-zinc-400">
-          May 2023 - up to now
+          May 2023 - February 2024
         </p>
         <p className="font-bold text-[22px] mb-[25px] ">My duties</p>
         <ul className="text-[22px] mb-[15px]">
@@ -37,7 +37,7 @@ export default function Experience({ id }) {
       <div>
         <p className="font-bold text-[22px] mb-[25px]">
           <span className="text-blue-400">Webmaster Studio</span> /
-          <span>Full-Stack Developer</span>
+          <span> Full-Stack Developer</span>
         </p>
         <p className="font-bold text-[18px] mb-[25px] text-zinc-400">
           February 2023 - May 2023
@@ -78,51 +78,23 @@ export default function Experience({ id }) {
         </ul>
       </div>
 
-      {/* <div>
+      <div>
         <p className="font-bold text-[22px] mb-[25px]">
-          <span className="text-blue-400">Moonglow</span> /
-          <span>Website administrator</span>
+          <span className="text-blue-400">Freelance</span> /
+          <span> Developer</span>
         </p>
         <p className="font-bold text-[18px] mb-[25px] text-zinc-400">
-          September 2022 - November 2022
+          November 2021 - November 2022
         </p>
         <p className="font-bold text-[22px] mb-[25px] ">My duties</p>
         <ul className="text-[22px] mb-[15px]">
           <li>
             <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Controlling of company website working with good and comfortable
-            interface for customers.
-          </li>
-          <li>
-            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Adding and changing products on website.
+            Making websites with frontend and backend parts using JS and PHP
+            with React, Laravel, Nodejs.
           </li>
         </ul>
       </div>
-      <div>
-        <p className="font-bold text-[22px] mb-[25px]">
-          <span className="text-blue-400">Evo Publishing</span> /
-          <span>Marketing assistant</span>
-        </p>
-        <p className="font-bold text-[18px] mb-[25px] text-zinc-400">
-          January 2021 - July 2021
-        </p>
-        <p className="font-bold text-[22px] mb-[25px] ">My duties</p>
-        <ul className="text-[22px] mb-[15px]">
-          <li>
-            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Analysis of competitors and market
-          </li>
-          <li>
-            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Definition of target audience
-          </li>
-          <li>
-            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Conversion accounting.
-          </li>
-        </ul>
-      </div> */}
     </div>
   );
 }

@@ -4,7 +4,7 @@ import Work from './Work';
 import iconArray from './IconArray';
 import utmLogo from '../icons/utm-logo.svg';
 import goitIcon from '../icons/goitIcon.png';
-import evoLogo from '../images/evo-publishing.png';
+// import evoLogo from '../images/evo-publishing.png';
 import {
   gitHubIcon,
   linkedInIcon,
@@ -26,13 +26,13 @@ export default function About() {
           </p>
           <p className="text-[22px] mb-5">
             I am a Full stack developer with specialization in JavaScript and
-            PHP. I worked with JS frameworks: React, Vue and PHP framework
-            Laravel. I worked as front-end as back-end developer. In back-end I
-            used Nodejs for JS and only PHP, Laravel or Backpack for PHP. I have
-            been interested in programming since a long time and wanted to make
-            something important and useful. A lot of practice and work for the
-            result are important for me. Also I am focused on the company
-            development and on the team communication.
+            PHP. I worked with JS frameworks: React, Vue, NextJs and PHP
+            framework Laravel. I worked as front-end as back-end developer. In
+            the back-end I used Nodejs, NextJs for JS and PHP, Laravel or
+            Backpack for PHP. I have been interested in programming since a long
+            time and wanted to make something important and useful. A lot of
+            practice and work for the result are important for me. Also I am
+            focused on the company development and on the team communication.
           </p>
           <div>
             <div className="flex">
@@ -105,7 +105,7 @@ export default function About() {
           <p className="font-bold text-[18px] mb-[25px] pl-[65px] text-zinc-400">
             September 2021 - September 2022
           </p>
-          <p className="font-bold text-[24px] mb-[20px] text-center">
+          {/* <p className="font-bold text-[24px] mb-[20px] text-center">
             Marketing corse
           </p>
           <img src={evoLogo} className="w-[60px] inline" alt="" />
@@ -115,7 +115,7 @@ export default function About() {
           <p className="text-[22px] pl-[65px]">Internet marketing</p>
           <p className="font-bold text-[18px] mb-[25px] pl-[65px] text-zinc-400">
             July 2020 - October 2020
-          </p>
+          </p> */}
         </div>
       </div>
       <Experience title="Experience" dark={true} id="experience" />

@@ -8,6 +8,7 @@ const styles = {
     top: 0,
     justifyContent: 'flex-end',
     alignItems: 'center',
+    flexWrap: 'wrap',
     borderBottom: '1px solid #2A363B',
     padding: 20,
     backgroundColor: 'black',

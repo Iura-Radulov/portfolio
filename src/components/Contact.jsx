@@ -11,9 +11,9 @@ export default function Contact({ id }) {
   return (
     <div
       id={id}
-      className="flex items-center justify-around h-[130px] bg-indigo-400 text-stone-700"
+      className="md:flex items-center justify-around md:h-[130px] bg-indigo-400 text-stone-700 py-5 pl-4"
     >
-      <div>
+      <div className="mb-4 md:mb-0">
         <div className="flex">
           {geoIcon}
           <p className="mb-3 ml-3">Moldova, Chisinau</p>
@@ -26,7 +26,11 @@ export default function Contact({ id }) {
         </div>
         <div className="flex mt-3">
           {mailIcon}
-          <a href="mailto:iura.radulov@gmail.com" target="blank" className="ml-3">
+          <a
+            href="mailto:iura.radulov@gmail.com"
+            target="blank"
+            className="ml-3"
+          >
             iura.radulov@gmail.com
           </a>
         </div>

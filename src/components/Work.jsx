@@ -1,7 +1,4 @@
-// import { imageListClasses } from '@mui/material';
 import { gitHubIcon, linkIcon } from 'icons/svgIcon/svgIcons';
-// import { useState } from 'react';
-// import Backdrop from '@mui/material/Backdrop';
 
 import portfolio from './portfolioItem';
 
@@ -15,7 +12,7 @@ export default function Work({ id }) {
 
   // };
   return (
-    <div className="lg:h-screen pl-[30px]" id={id}>
+    <div className="md:h-full pl-[30px]" id={id}>
       <p className="font-bold text-[28px] mb-[25px] text-center text-green-500">
         Some Things I’ve Built
       </p>
@@ -54,9 +51,13 @@ export default function Work({ id }) {
                   </a>
                 </div>
               </div>
-              <p className="text-[28px] mb-3 mt-2 flex-none">{item.title}</p>
+              <p className="text-[28px] mb-3 mt-2 flex-none">
+                <a href={item.link} target="blank">
+                  {item.title}
+                </a>
+              </p>
               <p className="text-[20px] flex-1">{item.description}</p>
-              <ul className="flex text-[#F59256]">
+              <ul className="flex flex-wrap text-[#F59256]">
                 {item.technologies.map(tech => (
                   <li className="mr-3">{tech}</li>
                 ))}
