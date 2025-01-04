@@ -41,15 +41,7 @@ const portfolio = [
     link: 'https://iura-radulov.github.io/search-movies/ ',
     image: delmiraImg,
   },
-  {
-    title: 'Phone book',
-    description:
-      'Website with authorization to create contacts in the form of a notebook',
-    technologies: ['React', 'Redux', 'REST', 'M-UI'],
-    gitLink: 'https://github.com/Iura-Radulov/goit-react-hw-08-phonebook.git',
-    link: 'https://iura-radulov.github.io/goit-react-hw-08-phonebook/ ',
-    image: delmiraImg,
-  },
+
   {
     title: 'Vianorway tours',
     description: 'Website for ordering excursions in Norway',
@@ -91,6 +83,14 @@ const portfolio = [
     technologies: ['Laravel', 'Vue'],
     gitLink: '#',
     link: 'https://amid-auto.md/',
+    image: delmiraImg,
+  },
+  {
+    title: 'Vitra',
+    description: 'E-Commerce Website with Admin Panel for company Vitra.',
+    technologies: ['PHP', 'JS', 'Laravel', 'SQL'],
+    gitLink: 'https://github.com/Vitra-web/vitra.md',
+    link: 'https://vitra.md',
     image: delmiraImg,
   },
 ];

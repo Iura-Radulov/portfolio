@@ -6,7 +6,23 @@ export default function Experience({ id }) {
       <p className="font-bold text-[28px] mb-[25px] text-green-500">
         Where I’ve Worked
       </p>
-
+      <div>
+        <p className="font-bold text-[22px] mb-[25px]">
+          <span className="text-blue-400">Vitra</span> /
+          <span> Full-Stack Developer</span>
+        </p>
+        <p className="font-bold text-[18px] mb-[25px] text-zinc-400">
+          February 2024 - now
+        </p>
+        <p className="font-bold text-[22px] mb-[25px] ">My duties</p>
+        <ul className="text-[22px] mb-[15px]">
+          <li>
+            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
+            Making Front-end, Back-end parts of the project and the admin panel
+            using PHP, SQL, JS and Laravel.
+          </li>
+        </ul>
+      </div>
       <div>
         <p className="font-bold text-[22px] mb-[25px]">
           <span className="text-blue-400">Customagic</span> /
@@ -74,24 +90,6 @@ export default function Experience({ id }) {
           <li>
             <img src={rightArrow} className="w-4 inline mr-3" alt="" />
             Adding and changing products on website.
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <p className="font-bold text-[22px] mb-[25px]">
-          <span className="text-blue-400">Freelance</span> /
-          <span> Developer</span>
-        </p>
-        <p className="font-bold text-[18px] mb-[25px] text-zinc-400">
-          November 2021 - November 2022
-        </p>
-        <p className="font-bold text-[22px] mb-[25px] ">My duties</p>
-        <ul className="text-[22px] mb-[15px]">
-          <li>
-            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Making websites with frontend and backend parts using JS and PHP
-            with React, Laravel, Nodejs.
           </li>
         </ul>
       </div>
