@@ -1,97 +1,76 @@
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import rightArrow from '../icons/right-arroy.png';
+import { experience } from './experience';
 
 export default function Experience({ id }) {
+  const [active, setActive] = useState(0);
+  const job = experience[active];
+
   return (
-    <div className="md:h-full pl-[50px] mb-[30px]" id={id}>
-      <p className="font-bold text-[28px] mb-[25px] text-green-500">
+    <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8" id={id}>
+      <p className="mb-12 text-[28px] font-bold text-green-500">
         Where I’ve Worked
       </p>
-      <div>
-        <p className="font-bold text-[22px] mb-[25px]">
-          <span className="text-blue-400">Vitra</span> /
-          <span> Full-Stack Developer</span>
-        </p>
-        <p className="font-bold text-[18px] mb-[25px] text-zinc-400">
-          February 2024 - now
-        </p>
-        <p className="font-bold text-[22px] mb-[25px] ">My duties</p>
-        <ul className="text-[22px] mb-[15px]">
-          <li>
-            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Making Front-end, Back-end parts of the project and the admin panel
-            using PHP, SQL, JS and Laravel.
-          </li>
-        </ul>
-      </div>
-      <div>
-        <p className="font-bold text-[22px] mb-[25px]">
-          <span className="text-blue-400">Customagic</span> /
-          <span> Full-Stack Developer</span>
-        </p>
-        <p className="font-bold text-[18px] mb-[25px] text-zinc-400">
-          May 2023 - February 2024
-        </p>
-        <p className="font-bold text-[22px] mb-[25px] ">My duties</p>
-        <ul className="text-[22px] mb-[15px]">
-          <li>
-            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Making refactoring companies websites on the receiving tasks, using
-            HTML CSS, JS, PHP.
-          </li>
-          <li>
-            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Making Front-end, Back-end parts of the project and the admin panel
-            using PHP, SQL, Laravel, React.
-          </li>
-          <li>
-            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Making mobile applications using React Native.
-          </li>
-        </ul>
-      </div>
 
-      <div>
-        <p className="font-bold text-[22px] mb-[25px]">
-          <span className="text-blue-400">Webmaster Studio</span> /
-          <span> Full-Stack Developer</span>
-        </p>
-        <p className="font-bold text-[18px] mb-[25px] text-zinc-400">
-          February 2023 - May 2023
-        </p>
-        <p className="font-bold text-[22px] mb-[25px] ">My duties</p>
-        <ul className="text-[22px] mb-[15px]">
-          <li>
-            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Making a website on the received design, using HTML CSS, JS, PHP.
-          </li>
-          <li>
-            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Making Front-end, Back-end parts of the project and the admin panel
-            using PHP, SQL.
-          </li>
-        </ul>
-      </div>
+      <div className="flex flex-col md:flex-row md:gap-10">
+        {/* Tabs */}
+        <div className="relative flex overflow-x-auto border-b border-white/10 md:w-56 md:flex-shrink-0 md:flex-col md:overflow-visible md:border-b-0 md:border-l">
+          {experience.map((item, idx) => (
+            <button
+              key={item.company}
+              type="button"
+              onClick={() => setActive(idx)}
+              className={`relative whitespace-nowrap px-4 py-3 text-left text-sm font-medium transition-colors duration-200 md:px-5 md:py-3 ${
+                active === idx
+                  ? 'text-white'
+                  : 'text-slate-400 hover:text-slate-200'
+              }`}
+            >
+              {active === idx && (
+                <motion.span
+                  layoutId="exp-indicator"
+                  className="absolute inset-x-0 bottom-0 h-0.5 bg-brand-gradient md:inset-x-auto md:inset-y-0 md:left-0 md:h-auto md:w-0.5"
+                  transition={{ type: 'spring', stiffness: 380, damping: 30 }}
+                />
+              )}
+              {item.company}
+            </button>
+          ))}
+        </div>
 
-      <div>
-        <p className="font-bold text-[22px] mb-[25px]">
-          <span className="text-blue-400">Amid-auto</span> /
-          <span> Developer</span>
-        </p>
-        <p className="font-bold text-[18px] mb-[25px] text-zinc-400">
-          November 2022 - February 2023
-        </p>
-        <p className="font-bold text-[22px] mb-[25px] ">My duties</p>
-        <ul className="text-[22px] mb-[15px]">
-          <li>
-            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Controlling of company website working with good and comfortable
-            interface for customers.
-          </li>
-          <li>
-            <img src={rightArrow} className="w-4 inline mr-3" alt="" />
-            Adding and changing products on website.
-          </li>
-        </ul>
+        {/* Content */}
+        <div className="min-h-[280px] flex-1 pt-6 md:pt-0">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={job.company}
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.2 }}
+            >
+              <p className="text-xl font-bold sm:text-2xl">
+                {job.role}{' '}
+                <span className="text-blue-400">@ {job.company}</span>
+              </p>
+              <p className="mb-6 mt-1 text-sm font-semibold text-zinc-400">
+                {job.date}
+              </p>
+              <ul className="space-y-3">
+                {job.duties.map(duty => (
+                  <li key={duty} className="flex gap-3 text-lg text-slate-300">
+                    <img
+                      src={rightArrow}
+                      className="mt-1.5 h-3 w-3 flex-none"
+                      alt=""
+                    />
+                    <span>{duty}</span>
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          </AnimatePresence>
+        </div>
       </div>
     </div>
   );
