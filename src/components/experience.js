@@ -26,4 +26,21 @@ export const experience = [
       'Built mobile applications using React Native.',
     ],
   },
+  {
+    company: 'Webmaster Studio',
+    role: 'PHP Developer',
+    date: 'Mart 2023 — May 2023',
+    duties: [
+      "Development of backend and frontend parts of projects using PHP, MySQL, JS, and admin panel setup",
+    ],
+  },
+  {
+    company: 'Amid-auto',
+    role: 'PHP Developer',
+    date: 'September 2022 — February 2023',
+    duties: [
+      "Website development and refinement using Laravel and Vue.",
+      "Website administration for the company.",
+    ],
+  },
 ];
