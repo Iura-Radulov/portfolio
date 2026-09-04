@@ -1,14 +1,39 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7fc017e7.css",
-    "main.js": "/portfolio/static/js/main.5429457e.js",
+    "main.css": "/portfolio/static/css/main.555cf65c.css",
+    "main.js": "/portfolio/static/js/main.9fd9f93b.js",
+    "static/media/1.png": "/portfolio/static/media/1.0fbd808f5879c927c7d5.png",
+    "static/media/3.png": "/portfolio/static/media/3.3c327e7bf1e16d5a078c.png",
+    "static/media/9.png": "/portfolio/static/media/9.ba22da3dba357e4af692.png",
+    "static/media/2.png": "/portfolio/static/media/2.a2295ed72f2ded6da1f9.png",
+    "static/media/6.png": "/portfolio/static/media/6.7a2cdedaed1cac41ceb1.png",
+    "static/media/4.png": "/portfolio/static/media/4.06b95503b8af38caf5bb.png",
+    "static/media/8.png": "/portfolio/static/media/8.db147acc18705bf27821.png",
+    "static/media/Filmoteka-1.png": "/portfolio/static/media/Filmoteka-1.785bda9d529c811cd3c1.png",
+    "static/media/Web-studio-1.png": "/portfolio/static/media/Web-studio-1.6f6247f0f6638e5d4bba.png",
+    "static/media/7.png": "/portfolio/static/media/7.51a749240c20415e05d8.png",
+    "static/media/Delmira-beauty-1.png": "/portfolio/static/media/Delmira-beauty-1.22c8b0c8d786a948dce4.png",
+    "static/media/Search-movies-4.png": "/portfolio/static/media/Search-movies-4.55d6bef7df929fc38747.png",
+    "static/media/5.png": "/portfolio/static/media/5.8f4dc8a9b79eb4a69f5c.png",
+    "static/media/14.png": "/portfolio/static/media/14.472f0d971aa93ecf91f9.png",
+    "static/media/Phone-book-1.png": "/portfolio/static/media/Phone-book-1.ed2bede42b69ce86e6b2.png",
+    "static/media/ice-cream-1.png": "/portfolio/static/media/ice-cream-1.08e1815f7ac9dc79e01f.png",
+    "static/media/11.png": "/portfolio/static/media/11.0b6dad761dc7b08e3336.png",
+    "static/media/13.png": "/portfolio/static/media/13.35a5c998fa3a9603bab3.png",
+    "static/media/10.png": "/portfolio/static/media/10.4be0646034ad72659502.png",
+    "static/media/12.png": "/portfolio/static/media/12.80c6ff36b047f2b55f51.png",
+    "static/media/18.png": "/portfolio/static/media/18.0d367ca6317b39cf4d68.png",
+    "static/media/17.png": "/portfolio/static/media/17.1f73175c2e5d3e550d73.png",
+    "static/media/15.png": "/portfolio/static/media/15.81493c363e5297801c8d.png",
+    "static/media/16.png": "/portfolio/static/media/16.2d80fb368644b424ce91.png",
+    "static/media/evo-publishing.png": "/portfolio/static/media/evo-publishing.edfb2c184d19d4d5dca2.png",
     "static/media/utm-logo.svg": "/portfolio/static/media/utm-logo.8ae790d9ffe12c3836321876ead00645.svg",
     "index.html": "/portfolio/index.html",
-    "main.7fc017e7.css.map": "/portfolio/static/css/main.7fc017e7.css.map",
-    "main.5429457e.js.map": "/portfolio/static/js/main.5429457e.js.map"
+    "main.555cf65c.css.map": "/portfolio/static/css/main.555cf65c.css.map",
+    "main.9fd9f93b.js.map": "/portfolio/static/js/main.9fd9f93b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fc017e7.css",
-    "static/js/main.5429457e.js"
+    "static/css/main.555cf65c.css",
+    "static/js/main.9fd9f93b.js"
   ]
 }
