@@ -31,8 +31,8 @@ export const otherProjects = [
   {
     title: 'Profarma Express',
     description:
-      'E-commerce platform selling pharmacy in the USA.',
-    technologies: ['Vue', 'Nuxt'],
+      'E-commerce platform for a US online pharmacy, with a Laravel and Filament backend, a Vue and Nuxt storefront and the Cardstream payment gateway.',
+    technologies: ['Vue', 'Nuxt', 'Laravel', 'Cardstream'],
     link: 'https://profarmaexpress.com/',
     imagesFolder: 'profarma-express',
   },
@@ -47,10 +47,10 @@ export const otherProjects = [
   {
     title: 'HRM',
     description:
-      'An HR platform for employee management using Laravel and Filament.',
+      'An HR platform for employee management: roles, records and internal workflows, built with Laravel and Filament.',
     technologies: ['Laravel', 'Filament'],
     link: 'https://hrm.webng.life/',
-    imagesFolder: 'profarma-express-back',
+    imagesFolder: 'hrm',
   },
   {
     title: 'Tracking Service',
@@ -72,9 +72,9 @@ export const otherProjects = [
     title: 'Career Path Simulator',
     description:
       'An AI-powered career guidance platform. Helps schoolchildren and students find the right career path through interactive quizzes, AI role-playing games.',
-    technologies: [ 'Next.js', 'Python', 'FastAPI'],
-    link: 'https://techinterviewai.com/',
-    imagesFolder: 'ai-interview-trainer',
+    technologies: [ 'Next.js', 'Python', 'FastAPI', 'Stripe'],
+    link: 'https://careerpathsim.com/',
+    imagesFolder: 'career-path',
   },
   {
     title: 'AI Povești',
