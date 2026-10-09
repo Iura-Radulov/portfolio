@@ -1,10 +1,11 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Iuri Radulov",
+  "name": "Iuri Radulov - Full-Stack Engineer Portfolio",
+  "description": "Portfolio of Iuri Radulov, a senior full-stack engineer based in Chisinau, Moldova: e-commerce and SaaS products built with Laravel, React, Next.js, Python FastAPI, payments, Docker and CI/CD.",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "64x64 48x48 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
@@ -20,6 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#05070d",
+  "background_color": "#05070d"
 }
